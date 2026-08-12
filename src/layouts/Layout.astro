@@ -15,8 +15,10 @@ const { title } = Astro.props as Props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/x-icon" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-  </head>
+    <title>{title} | EdgeOne Makers</title>
+      <meta name="description" content="Demo only · EdgeOne Makers" />
+    <meta name="keywords" content="EdgeOne Makers, Demo only" />
+</head>
   <body>
     <slot />
     <PageNavigator />
